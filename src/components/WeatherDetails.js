@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import { colors } from '../utils'
+import { colors } from '../../utils/index'
 import { FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function WeatherDetails({ currentWeather, unitsStystem }) {

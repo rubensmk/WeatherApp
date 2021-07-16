@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, Platform } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
-import { colors, colort } from '../utils/index';
+import { colors, colort } from '../../utils/index';
 
 export default function ReloadIcon({ load }) {
     const reloadIconName = Platform.OS === 'ios' ? 'ios-refresh' : 'md-refresh'
